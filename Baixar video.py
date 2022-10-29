@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-# Digite o link do vídeo e o local que deseja salvar o video #
+# Digite o link do vídeo e o local que deseja salvar o video 
 link = input("Digite o link do vídeo que deseja baixar:  ")
 path = input("Digite o diretório que deseja salvar o vídeo:  ")
 yt = YouTube(link)
